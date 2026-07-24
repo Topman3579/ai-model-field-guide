@@ -1,0 +1,20 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient id="bg" cx="50%" cy="36%" r="78%"><stop offset="0" stop-color="#16305a"/><stop offset="1" stop-color="#0a1426"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBEFC4"/><stop offset=".34" stop-color="#F2C63E"/><stop offset=".7" stop-color="#C9962E"/><stop offset="1" stop-color="#8A6418"/></linearGradient>
+  <radialGradient id="navy" cx="50%" cy="34%" r="72%"><stop offset="0" stop-color="#16335f"/><stop offset="1" stop-color="#081530"/></radialGradient>
+  <linearGradient id="goldT" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9A8"/><stop offset=".5" stop-color="#FFCB2D"/><stop offset="1" stop-color="#D89A1C"/></linearGradient>
+ </defs>
+ <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+ <g transform="translate(86.5,63) scale(1.13)">
+  <path d="M150 12 L270 58 L270 175 C270 250 220 300 150 330 C80 300 30 250 30 175 L30 58 Z" fill="url(#gold)" stroke="#6e5012" stroke-width="1.4"/>
+  <path d="M150 30 L252 70 L252 172 C252 238 208 282 150 308 C92 282 48 238 48 172 L48 70 Z" fill="url(#navy)"/>
+  <path d="M150 44 L242 80 L242 170 C242 230 202 268 150 292 C98 268 58 230 58 170 L58 80 Z" fill="none" stroke="rgba(232,200,119,.6)" stroke-width="1.6"/>
+  <g stroke="#5BB8F5" stroke-width="3" fill="none" stroke-linecap="round">
+   <ellipse cx="150" cy="158" rx="86" ry="33" transform="rotate(33 150 158)"/>
+   <ellipse cx="150" cy="158" rx="86" ry="33" transform="rotate(-33 150 158)"/>
+  </g>
+  <g fill="#8FD0FF"><circle cx="224" cy="204" r="5"/><circle cx="76" cy="112" r="5"/><circle cx="150" cy="210" r="4.2"/></g>
+  <path d="M108 120 H192 V146 H163 V214 H137 V146 H108 Z" fill="url(#goldT)"/>
+ </g>
+</svg>
